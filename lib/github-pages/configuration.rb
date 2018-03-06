@@ -75,7 +75,7 @@ module GitHubPages
       end
 
       def disable_whitelist?
-        development? && !ENV["DISABLE_WHITELIST"].to_s.empty?
+        true
       end
 
       def development?
